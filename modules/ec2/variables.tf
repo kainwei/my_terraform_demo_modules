@@ -1,4 +1,4 @@
-// local variable
+# local variable
 variable "public_key_path" {
   default = "C:\\terraform_work\\terraform.pub"
 }
@@ -24,9 +24,10 @@ variable "private_key_path" {
   default = "C:\\terraform_work\\terraform_kain1.pem"
 }
 
-// variable from other modules
+# variable from other modules
+variable "vpc_output_id" {
+}
+
 variable "subnet_output_id" {
 }
 
-variable "elb_security_group_output_id" {
-}

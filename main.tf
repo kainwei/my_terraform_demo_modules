@@ -1,24 +1,24 @@
 module "vpc" {
-  source = "modules/vpc"
+  source = "./modules/vpc"
 }
 
 module "subnet" {
-  source = "modules/subnet"
+  source = "./modules/subnet"
   vpc_output_id = "${module.vpc.id}"
 
-}
-
-module "elb" {
-  source = "modules/elb"
-  vpc_output_id = "${module.vpc.id}"
-  subnet_output_id = "${module.subnet.id}"
-  ec2_output_id = "${module.ec2.id}"
 }
 
 module "ec2" {
-  source = "modules/ec2"
+  source = "./modules/ec2"
+  vpc_output_id = "${module.vpc.id}"
   subnet_output_id = "${module.subnet.id}"
-  elb_security_group_output_id = "${module.elb.elb_security_group_id}"
+}
+
+module "elb" {
+  source = "./modules/elb"
+  vpc_output_id = "${module.vpc.id}"
+  subnet_output_id = "${module.subnet.id}"
+  ec2_output_id = "${module.ec2.id}"
 }
 
 # Specify the provider and access details

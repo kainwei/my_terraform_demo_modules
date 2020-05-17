@@ -10,25 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfed6927-65d5-4e24-bbba-b21ef232b911" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/my_terraform_demo_modules.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cfed6927-65d5-4e24-bbba-b21ef232b911" name="Default Changelist" comment="add">
       <change afterPath="$PROJECT_DIR$/credential.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/ec2/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/ec2/outputs.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/ec2/variables.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/elb/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/elb/outputs.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/elb/variables.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/subnet/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/subnet/outputs.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/subnet/variables.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/vpc/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/vpc/outputs.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ec2/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ec2/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ec2/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ec2/variables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/elb/outputs.tf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -66,6 +55,14 @@
       <option name="presentableId" value="Default" />
       <updated>1589714722051</updated>
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1589718623387</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589718623387</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,5 +75,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1589718633203">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589718633203" />
   </component>
 </project>
