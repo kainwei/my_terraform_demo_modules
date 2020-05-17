@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cfed6927-65d5-4e24-bbba-b21ef232b911" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/my_terraform_demo_modules.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credential.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/ec2/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/ec2/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/ec2/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/elb/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/elb/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/elb/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/subnet/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/subnet/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/subnet/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/vpc/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/vpc/outputs.tf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1c27EYWlMwnPe9E8u1ZVVMwoltQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KainWei\PycharmProjects\my_terraform_demo_modules" />
+      <recent name="C:\Users\KainWei\PycharmProjects\my_terraform_demo_modules\modules\elb" />
+      <recent name="C:\Users\KainWei\PycharmProjects\my_terraform_demo_modules\modules\subnet" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfed6927-65d5-4e24-bbba-b21ef232b911" name="Default Changelist" comment="" />
+      <created>1589714722051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589714722051</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
