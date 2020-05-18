@@ -12,7 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="cfed6927-65d5-4e24-bbba-b21ef232b911" name="Default Changelist" comment="add">
       <change afterPath="$PROJECT_DIR$/credential.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/elb/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/elb/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/init_nginx.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/ec2/main.tf.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/ec2/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ec2/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +34,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/ec2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KainWei\PycharmProjects\my_terraform_demo_modules\modules\ec2" />
       <recent name="C:\Users\KainWei\PycharmProjects\my_terraform_demo_modules" />
       <recent name="C:\Users\KainWei\PycharmProjects\my_terraform_demo_modules\modules\elb" />
       <recent name="C:\Users\KainWei\PycharmProjects\my_terraform_demo_modules\modules\subnet" />
@@ -65,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589720826158</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add">
+      <created>1589721206256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589721206256</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,15 +89,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
     <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1589720833027">
+    <state x="397" y="142" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589831632375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589720833027" />
+    <state x="397" y="142" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1589831632375" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1589721215465">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589721215465" />
   </component>
 </project>
